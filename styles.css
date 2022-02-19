@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto',sans-sarif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(240, 240, 240);
+}
+
+h2 {
+    margin: 0;
+    color:white;
+    font-size: 24px;
+}
+
+/* This is styling for the navigation bar */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding:15px 200px;
+}
+.nav-link-wrapper {
+    display: flex;
+    gap:24px;
+
+}
+
+
