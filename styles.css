@@ -15,8 +15,11 @@ a {
     text-decoration: none;
     color:rgb(207, 207, 207);
 }
-
 h2 {
+    font-size: 36px;
+}
+
+h3 {
     margin: 0;
     font-size: 24px;
 }
@@ -74,6 +77,7 @@ h1 {
     flex-direction: column;
     gap: 20px;
 }
+
 .header-button {
     align-self: flex-start;
     font-size: 18px;
@@ -84,3 +88,33 @@ h1 {
     color: white;
     border:0;
 }
+
+/* This is styling for the info section */
+
+.info-section {
+    color:black;
+    text-align: center;
+    padding:50px 350px;
+
+}
+
+.svg-container {
+    width:120px;
+    height: auto;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap:70px;
+}
+
+.card {
+    flex:1;
+}
+
+.info-title {
+    margin-bottom: 100px;
+}
+
